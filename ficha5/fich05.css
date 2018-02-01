@@ -1,0 +1,64 @@
+body{
+    background-color: yellowgreen;
+}
+
+#flexbox{
+    display: flex;
+    flex-direction: row;  
+}
+
+div{
+    padding: 10px;
+    border: solid 1px;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    background-color: white;
+}
+
+#flexbox-reverse{
+    display: flex;
+    flex-direction: row-reverse;  
+}
+
+#flexbox-column{
+    display: flex;
+    flex-direction: column;  
+
+}
+
+#flex-wrap{
+    display: flex;
+    flex-wrap: nowrap;  
+
+}
+
+#flexwrap{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.flex-item{
+    display: flex;   
+}
+
+.flex-item1{
+    order: 0;
+}
+
+.flex-item2{
+    order: 1;
+    flex-grow: 0;
+}
+
+.flex-item3{
+    order: -1;
+}
+.flex-item4{
+    order: 0;
+}
+.flex-item5{
+    order: 2;
+}

@@ -1,0 +1,10 @@
+/*novos estilos para o menu*/
+.preco {
+    font-weight: 700;
+}
+.obs {
+    width:12em;
+    word-wrap: break-word;
+    height: 5em;
+    overflow: hidden;
+}

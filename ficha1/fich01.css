@@ -1,0 +1,35 @@
+body{
+    background-color: #eee;
+    font-family: "arial"
+}
+h1{font-style: italic;}
+div{
+    padding: 10px;
+    background-color: white;
+    border:solid 1px #ccc;
+}
+
+#inline-block div{
+display:inline-block;
+width:30%;
+margin: 5px;    
+}
+
+#float div{
+float: left;
+width:30%;
+margin: 5px;
+}
+
+.limpar-floats{
+    clear: both;
+}
+
+#flexbox{
+    display:flex;
+    justify-content:space-between;
+}
+#flexbox div{
+    width:30%;
+    margin: 5px;
+}

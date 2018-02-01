@@ -1,0 +1,24 @@
+.container{
+    border: solid 1px black;
+}
+
+.row{
+    border: solid 1px black;
+}
+
+.col{
+    border: solid 1px black;
+}
+
+.col-md-4{
+    border: solid 1px black;
+}
+
+.col-md-4 .offset-md-4{
+    border: solid 1px black;
+}
+
+.col-md-6{
+    border: solid 1px black;
+}
+

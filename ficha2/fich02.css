@@ -1,0 +1,61 @@
+@media (min-width:600px){
+    .flexwrapper {
+    flex-flow:row wrap;
+    height:97vh;
+}
+.flexwrapper {
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexItems{
+    display: flex;
+    align-items: center;
+    min-height: 6,25rem;
+    padding:1rem;
+}
+
+header{
+    background-color: #105b63;
+    width:100%;
+    order:1;
+}
+
+nav{
+    background-color:rgb(255,240,145);
+    width:100%;
+    order:2;
+}
+
+.foco{
+    background-color: #BD4932;
+    width:100%;
+    order:3;
+}
+
+.ultimas{
+    background-color: #DB9e36;
+    flex:2;
+    order:4;
+}
+
+.agenda{
+    background-color: #ffd34e;
+    flex:1;
+    order:5;
+}
+
+.links{
+    background-color: #DB9e36;
+    width:200px;
+    order:6;
+}
+
+footer{
+    background-color: #BD4932;
+    width:100%;
+    order:7;
+}
+}
